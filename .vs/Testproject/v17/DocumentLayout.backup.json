@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\testproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|solutionrelative:testproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|c:\\users\\admin\\onedrive - ueh.edu.vn\\documents\\ueh\\freshmen - period 2\\data structures and algorithms_\u0111\u1EB7ng ng\u1ECDc ho\u00E0ng th\u00E0nh\\\u0111\u1ED3 \u00E1n k\u1EBFt th\u00FAc h\u1ECDc ph\u1EA7n\\testproject\\test\\testproject\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|solutionrelative:testproject\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\testproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|solutionrelative:testproject\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\testproject\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|solutionrelative:testproject\\doublelinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\testproject\\songnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D94467F-424C-44AF-9BFC-9D964CA0F4BC}|Testproject\\Testproject.csproj|solutionrelative:testproject\\songnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\Form1.cs",
+              "RelativeDocumentMoniker": "Testproject\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\Form1.cs [Design]",
+              "RelativeToolTip": "Testproject\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:12:15.98Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\Form1.cs",
+              "RelativeDocumentMoniker": "Testproject\\Form1.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\Form1.cs",
+              "RelativeToolTip": "Testproject\\Form1.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwFsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:13:42.17Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Testproject\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\Properties\\Resources.resx",
+              "RelativeToolTip": "Testproject\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-13T13:51:32.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoubleLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\DoubleLinkedList.cs",
+              "RelativeDocumentMoniker": "Testproject\\DoubleLinkedList.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\DoubleLinkedList.cs",
+              "RelativeToolTip": "Testproject\\DoubleLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:34:18.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SongNode.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\SongNode.cs",
+              "RelativeDocumentMoniker": "Testproject\\SongNode.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive - ueh.edu.vn\\Documents\\UEH\\Freshmen - Period 2\\Data Structures and Algorithms_\u0110\u1EB7ng Ng\u1ECDc Ho\u00E0ng Th\u00E0nh\\\u0110\u1ED2 \u00C1N K\u1EBET TH\u00DAC H\u1ECCC PH\u1EA6N\\Testproject\\test\\Testproject\\SongNode.cs",
+              "RelativeToolTip": "Testproject\\SongNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T05:16:40.809Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

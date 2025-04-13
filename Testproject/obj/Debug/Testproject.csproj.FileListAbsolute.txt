@@ -1,0 +1,37 @@
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Interop.WMPLib.dll
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.csproj.ResolveComReference.cache
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.Form1.resources
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.Properties.Resources.resources
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.csproj.GenerateResource.cache
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\test\Testproject\bin\Debug\Testproject.exe.config
+C:\Users\ADMIN\Documents\test\Testproject\bin\Debug\Testproject.exe
+C:\Users\ADMIN\Documents\test\Testproject\bin\Debug\Testproject.pdb
+C:\Users\ADMIN\Documents\test\Testproject\bin\Debug\Interop.WMPLib.dll
+C:\Users\ADMIN\Documents\test\Testproject\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Interop.WMPDXMLib.dll
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Interop.WMPLauncher.dll
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.exe
+C:\Users\ADMIN\Documents\test\Testproject\obj\Debug\Testproject.pdb
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Interop.WMPDXMLib.dll
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Interop.WMPLauncher.dll
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Interop.WMPLib.dll
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.csproj.ResolveComReference.cache
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.Form1.resources
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.Properties.Resources.resources
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.csproj.GenerateResource.cache
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\bin\Debug\ButtonImage\pause.jpg
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\bin\Debug\Testproject.exe.config
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\bin\Debug\Testproject.exe
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\bin\Debug\Testproject.pdb
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\bin\Debug\Interop.WMPLib.dll
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.exe
+C:\Users\admin\OneDrive - ueh.edu.vn\Documents\UEH\Freshmen - Period 2\Data Structures and Algorithms_Đặng Ngọc Hoàng Thành\ĐỒ ÁN KẾT THÚC HỌC PHẦN\Testproject\test\Testproject\obj\Debug\Testproject.pdb
