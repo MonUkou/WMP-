@@ -142,7 +142,7 @@ namespace Testproject
             else Current = null;   //Nếu Node hiện tại là Node cuối cùng thì gán Node hiện tại là null
 
         }
-        public void MovePrevious()   //Phương thức chuyển sang Node trước đó
+        public void MovePrev()   //Phương thức chuyển sang Node trước đó
         {
             if (Current != null && Current.Prev != null)   //Nếu Node hiện tại không phải Node đầu tiên
                 Current = Current.Prev;   //Chuyển sang Node trước đó

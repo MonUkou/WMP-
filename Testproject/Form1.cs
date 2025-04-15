@@ -1,5 +1,5 @@
 ﻿using AxWMPLib;
-using MusicPlayer;
+using Testproject;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.IO;
 
 namespace Testproject
 {
@@ -83,35 +84,85 @@ namespace Testproject
         }
         private void ListSong_DoubleClick(object sender, EventArgs e)
         {
-            int selectedIndex = ListSong.SelectedIndex;   // Lấy vị trí bài hát được chọn
-            DLL.Current = DLL.Head;   // Khởi tạo Node hiện tại là Node đầu tiên
-            for (int i = 0; i < selectedIndex; i++)   // Duyệt qua các Node trong danh sách
-                DLL.Current = DLL.Current.Next;   // Chuyển sang Node tiếp theo
-            axWindowsMediaPlayer.URL = DLL.Current.FilePath;   // Gán đường dẫn bài hát cho Media Player
-            axWindowsMediaPlayer.Ctlcontrols.play();   // Phát bài hát
-            btnPlay.BackgroundImage = Properties.Resources.pause;
+            if (ListSong.SelectedIndex != -1)   //   Nếu đã chọn bài hát
+            {
+                int selectedIndex = ListSong.SelectedIndex;   // Lấy vị trí bài hát được chọn
+                DLL.Current = DLL.Head;   // Khởi tạo Node hiện tại là Node đầu tiên
+                for (int i = 0; i < selectedIndex; i++)   // Duyệt qua danh sách để tìm bài hát được chọn
+                    DLL.Current = DLL.Current.Next;   // Chuyển đến Node tiếp theo
+                axWindowsMediaPlayer.URL = DLL.Current.FilePath;   // Đường dẫn bài hát
+                btnPlay.BackgroundImage = Properties.Resources.pause;   // Đổi biểu tượng sang Pause
+                timer1.Start();   // Bắt đầu đếm thời gian
+                trackBar1.Value = axWindowsMediaPlayer.settings.volume;   // Đặt giá trị âm lượng cho thanh trượt
+                lbl_volume.Text = trackBar1.Value.ToString() + "%";   // Hiển thị âm lượng
+            }
         }
         private bool isButtonClick = false;   // Biến kiểm tra trạng thái nút nhấn
         private void btnPlay_Click(object sender, EventArgs e)
         {
             isButtonClick = true; // Đánh dấu trạng thái được thay đổi bởi nút nhấn
 
-            if (axWindowsMediaPlayer.playState == WMPLib.WMPPlayState.wmppsPlaying)
+            if (axWindowsMediaPlayer.playState == WMPLib.WMPPlayState.wmppsPlaying)   // Nếu đang phát nhạc
             {
-                // Tạm dừng nhạc và đổi biểu tượng sang Play
-                axWindowsMediaPlayer.Ctlcontrols.pause();
-                btnPlay.BackgroundImage = Properties.Resources.play;
-                //timer.Stop();
+                axWindowsMediaPlayer.Ctlcontrols.pause();   // Tạm dừng phát nhạc
+                btnPlay.BackgroundImage = Properties.Resources.play;   // Đổi biểu tượng sang Play
             }
-            else
+            else   // Nếu không đang phát nhạc
             {
-                // Phát nhạc và đổi biểu tượng sang Pause
-                axWindowsMediaPlayer.Ctlcontrols.play();
-                btnPlay.BackgroundImage = Properties.Resources.pause;
-                //timer.Start();
+                axWindowsMediaPlayer.Ctlcontrols.play();   // Phát nhạc
+                btnPlay.BackgroundImage = Properties.Resources.pause;   // Đổi biểu tượng sang Pause
             }
             btnPlay.Refresh(); // Cập nhật giao diện
             isButtonClick = false; // Hoàn thành xử lý nút nhấn
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            if (DLL.Current != null)   // Nếu bài hiện tại không phải là null
+            {
+                DLL.MoveNext();   // Chuyển đến bài hát tiếp theo
+                if (DLL.Current == null)   // Nếu bài hát là bài cuối cùng 
+                    DLL.Current = DLL.Head;   // Quay lại bài hát đầu tiên
+                if (DLL.Current != null)   // Nếu bài hát hiện tại không phải là null
+                {
+                    axWindowsMediaPlayer.URL = DLL.Current.FilePath;   // Đường dẫn bài hát
+                    ListSong.SelectedIndices.Clear();   // Xóa tất cả các chỉ mục đã chọn
+                    ListSong.SelectedIndex = ListSong.Items.IndexOf(DLL.Current.FileName);   // Đánh dấu chọn bài hát hiện tại trong danh sách
+                }
+            }
+        }
+
+        private void btnPrev_Click(object sender, EventArgs e)
+        {
+            if (DLL.Current != null)   // Nếu bài hiện tại không phải là null
+            {
+                DLL.MovePrev();   // Chuyển đến bài hát tiếp theo
+                if (DLL.Current == null)   // Nếu bài hát là bài cuối cùng 
+                    DLL.Current = DLL.Tail;   // Quay lại bài hát đầu tiên
+                if (DLL.Current != null)   // Nếu bài hát hiện tại không phải là null
+                {
+                    axWindowsMediaPlayer.URL = DLL.Current.FilePath;   // Đường dẫn bài hát
+                    ListSong.SelectedIndices.Clear();   // Xóa tất cả các chỉ mục đã chọn
+                    ListSong.SelectedIndex = ListSong.Items.IndexOf(DLL.Current.FileName);   // Đánh dấu chọn bài hát hiện tại trong danh sách
+                }
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (axWindowsMediaPlayer.playState == WMPLib.WMPPlayState.wmppsPlaying)   // Nếu đang phát nhạc
+            {
+                progressBar1.Maximum = (int)axWindowsMediaPlayer.Ctlcontrols.currentItem.duration;   // Đặt giá trị tối đa cho thanh tiến trình
+                progressBar1.Value = (int)axWindowsMediaPlayer.Ctlcontrols.currentPosition;   // Đặt giá trị cho thanh tiến trình
+            }
+            lbl_track_start.Text = axWindowsMediaPlayer.Ctlcontrols.currentPositionString;   // Hiển thị thời gian bắt đầu
+            lbl_track_.Text = axWindowsMediaPlayer.Ctlcontrols.currentItem.durationString.ToString();   // Hiển thị thời gian kết thúc
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer.settings.volume = trackBar1.Value;   // Đặt âm lượng cho bài hát
+            lbl_volume.Text = trackBar1.Value.ToString();   // Hiển thị âm lượng
         }
 
         private void RefreshListSong(int index1, int index2)   

@@ -137,9 +137,7 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="ButtonImage\next.jpg" />
     <Content Include="ButtonImage\pause.jpg">
@@ -147,6 +145,8 @@
     </Content>
     <Content Include="ButtonImage\play.jpg" />
     <Content Include="ButtonImage\prev.jpg" />
+    <None Include="Resources\play.jpg" />
+    <None Include="Resources\pause.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
