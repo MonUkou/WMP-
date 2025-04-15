@@ -63,7 +63,7 @@ namespace Testproject
             if (ListSong.SelectedIndex != -1)   // Nếu đã chọn bài hát
             {
                 int selectedIndex = ListSong.SelectedIndex;   // Lấy vị trí bài hát được chọn
-                DLL.RemoveAt(selectedIndex);   // Xóa bài hát khỏi danh sách
+                DLL.RemoveSong(selectedIndex);   // Xóa bài hát khỏi danh sách
                 ListSong.Items.RemoveAt(selectedIndex);   // Xóa bài hát khỏi ListBox
                 MessageBox.Show("Đã xóa bài hát thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);   // Thông báo xóa thành công
             }

@@ -28,7 +28,7 @@ namespace Testproject
             }
             Count++;   //Tăng số lượng Node trong danh sách
         }
-        public void RemoveAt(int index)
+        public void RemoveSong(int index)   // Phương thức xóa bài hát khỏi danh sách
         {
             if (Head == null || index < 0) return;
             SongNode current = Head;
@@ -52,8 +52,8 @@ namespace Testproject
                 current = current.Next;
                 count++;
             }
-        }
-        public SongNode GetNodeAt(int index)
+        }   
+        public SongNode GetNodeAt(int index)   // Lấy bài hát được chỉ định 
         {
             if (index < 0 || index >= Count)   // Kiểm tra nếu index không hợp lệ
                 return null;   // Trả về null nếu không hợp lệ
